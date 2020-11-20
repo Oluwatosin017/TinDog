@@ -160,3 +160,14 @@ What this means is 7% padding for the top and bottom and 15% for the left & righ
         transform: rotate(0);
     }
 }
+
+@media (max-width: 500px) {
+ul {
+    display: flex;
+    flex-direction: column;
+}
+    li {
+    list-style-type: none;
+    margin: 10px;
+}
+}
